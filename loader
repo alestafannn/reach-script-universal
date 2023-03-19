@@ -5,10 +5,13 @@ local Hwid = {
     ["A93D62DC-46A3-4B80-8A92-35696FC8928F"] = 1, --ben
     [2] = "8C1DDC8F-4077-4699-822C-8B521BB10AC9",
     ["8C1DDC8F-4077-4699-822C-8B521BB10AC9"] = 2, --faded
+    [3] = "0D969BA9-9777-484B-AD41-5E675AE7F61E",
+    ["0D969BA9-9777-484B-AD41-5E675AE7F61E"] = 3, --faded
 }
 local Key = {
     [1] = "adminstrator",
-    [1] = "faded",
+    [2] = "faded",
+    [3] = "homelander",
 }
 local KeyNumber = Hwid[ClientId]
 if Hwid[KeyNumber] == ClientId then
