@@ -31,11 +31,20 @@ if Hwid[KeyNumber] == ClientId then
             return GenKey
         end
         setclipboard("Hwid :"..ClientId.. "\n Key : Alzen - "..Randomkey(7)..Randomkey(45))
-        print("discord.gg/wMc6H8gMYe")
+        print("https://discord.gg/uhy8x5YZyr")
     end
 else
+        print("Key created and copied contact with owner")
+        function Randomkey(v)
+            local GenKey = ""
+            for i = 1,v do
+                GenKey = GenKey ..string.char(math.random(80,90))
+            end
+            return GenKey
+        end
+        setclipboard("Hwid :"..ClientId.. "\n Key : Alzen - "..Randomkey(7)..Randomkey(45))
     print("Not whitelisted discord link copied")
-    setclipboard("discord.gg/wMc6H8gMYe")
+    setclipboard("https://discord.gg/uhy8x5YZyr")
 end
 
 
