@@ -44,7 +44,7 @@ else
         end
         setclipboard("Hwid :"..ClientId.. "\n Key : Alzen - "..Randomkey(7)..Randomkey(45))
     print("Not whitelisted discord link copied")
-    setclipboard("https://discord.gg/uhy8x5YZyr")
+    print("https://discord.gg/uhy8x5YZyr")
 end
 
 
